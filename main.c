@@ -1,12 +1,12 @@
 #include <stdio.h>
+int mul(int a, int b);
+int div(int a, int b);
 
 int mul(int a, int b){
- int res;
-  res = a * b;
+ return a * b;
 }
 int div(int a, int b){
- int res1;
-  res1 = a / b;
+ return a / b;
 }
 
 int main(){
